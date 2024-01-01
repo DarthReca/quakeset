@@ -37,8 +37,6 @@ class EarthQuakeModel(pl.LightningModule):
                 num_classes=num_classes,
                 in_chans=self.hparams["in_chans"],
             )
-        elif "atarinet" in self.hparams["model_name"]:
-            self.model = AtariNet(self.hparams["in_chans"])
         else:
             config = AutoConfig.from_pretrained(self.hparams["model_name"])
             config.num_channels = self.hparams["in_chans"]
