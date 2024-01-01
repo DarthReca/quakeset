@@ -1,0 +1,7 @@
+defaults:
+  - _self_
+  - dataset: earthquake
+  - model: mobilenet
+  - trainer: default
+
+log_comet: True

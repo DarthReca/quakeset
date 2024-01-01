@@ -1,0 +1,4 @@
+model_name: nvidia/mit-b0
+lr: 0.001
+task: "regression"
+in_chans: 2

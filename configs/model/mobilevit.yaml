@@ -1,0 +1,4 @@
+model_name: timm/mobilevitv2_100.cvnets_in1k
+lr: 0.001
+task: "regression"
+in_chans: 2

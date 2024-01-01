@@ -1,0 +1,7 @@
+file: "data/earthquakes.h5"
+magnitudes_file: "data/earthquakes.parquet"
+split_file: "data/earthquakes_split.parquet"
+batch_size: 16
+num_workers: 8
+fill_nan: 0
+post_only: False
