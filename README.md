@@ -1,6 +1,6 @@
-<div align="center">
+<h1 align="center">
   QuakeSet
-</div>
+</h1>
 
 <div align="center">
 <br />
