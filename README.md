@@ -30,6 +30,8 @@
 This is the repository to reproduce the experiments presented in _QuakeSet: A Dataset and
 Low-Resource Models to Monitor Earthquakes through Sentinel-1_ accepted at ISCRAM 2024.
 
+The dataset is available on [HuggingFace](https://huggingface.co/datasets/DarthReca/quakeset) or from [TorchGeo](https://github.com/microsoft/torchgeo/blob/main/torchgeo/datasets/quakeset.py).
+
 PrePrint: https://arxiv.org/abs/2403.18116
 
 **REPOSITORY IN CONSTRUCTION: SOME FILES COULD BE MISSING**
